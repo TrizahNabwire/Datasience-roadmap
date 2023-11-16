@@ -1,0 +1,10 @@
+#import required modules
+import numpy as np
+import matplotlib.pyplot as plt
+#define data and change list to array
+x = [3, 21, 22, 34, 55, 34, 55, 67, 89, 99]
+x = np.array(x)
+y = [1, 10, 14, 34, 44, 36, 22, 67, 79, 90]
+y = np.array(y)
+#Show the effects of a scatterplot
+plt.scatter(x,y)
