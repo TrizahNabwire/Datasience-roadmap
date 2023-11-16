@@ -1,0 +1,8 @@
+import matplotlib.pyplot as plt
+import numpy as np
+# We have to import matplotlib module and numpy library as most of the data we work with will be in the form of arrays only
+plt.plot([1, 2, 3, 4], [1, 4, 9, 16], 'go')
+plt.title('First Graph')
+plt.xlabel('x-axis')
+plt.ylabel('y-axis')
+plt.show()
